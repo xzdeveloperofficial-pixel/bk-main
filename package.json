@@ -1,0 +1,28 @@
+{
+  "name": "jexi-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "Jexi - AI-powered WhatsApp personal life assistant",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "pair": "node link.js",
+    "pack-session": "node session-manager.js pack",
+    "unpack-session": "node session-manager.js unpack"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.21",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "mysql2": "^3.17.0",
+    "pino": "^10.3.1",
+    "qrcode": "^1.5.4"
+  }
+}
